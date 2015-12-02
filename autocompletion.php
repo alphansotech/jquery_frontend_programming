@@ -60,6 +60,7 @@ $student_col_json = json_encode($student_name_col);
             $(function () {
                 var availableTags = <?= $student_col_json; ?>;
                 $("#student_name").autocomplete({
+                    autoFocus: true,
                     source: availableTags,
                     select: function (event, ui) {
                         $("#student_name").val(ui.item.value);

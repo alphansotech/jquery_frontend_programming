@@ -25,10 +25,12 @@ and open the template in the editor.
     <body>
         <div class="container">
             <div class="header clearfix">
-                <a href=""><h3 class="text-muted">Add/Remove Element TO DOM Using Jquery</h3></a>
+                <h3 class="text-muted">AlphansoTech Tutorials Guide</h3>
             </div>
 
             <div class="jumbotron" style="height: 700px;">
+                <a href="add-remove.php"><h3 class="text-muted">Add/Remove Element TO DOM Using Jquery</h3></a>
+                <a href="autocompletion.php"><h3 class="text-muted">Dynamic Auto Completion Using jQuery</h3></a>
             </div>
         </div>
 
